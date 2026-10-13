@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "checks": {
+    "posts_unique_ids": true,
+    "comments_unique_ids": true,
+    "actors_unique_ids": true,
+    "groups_unique_ids": true,
+    "interaction_events_unique_ids": true,
+    "post_actor_group_joins": true,
+    "comment_actor_post_joins": true,
+    "interaction_endpoint_joins": true,
+    "mention_endpoint_joins": true,
+    "participation_joins": true,
+    "timezone_aware_publication_times": true,
+    "all_sample_graph_counts": true,
+    "all_sample_weights_no_loops": true,
+    "all_sample_density_components": true,
+    "all_sample_participation_weights": true,
+    "all_sample_anonymous_scope": true,
+    "community_all_graph_counts": true,
+    "community_all_weights_no_loops": true,
+    "community_all_density_components": true,
+    "community_all_participation_weights": true,
+    "community_all_anonymous_scope": true,
+    "community_2026_graph_counts": true,
+    "community_2026_weights_no_loops": true,
+    "community_2026_density_components": true,
+    "community_2026_participation_weights": true,
+    "community_2026_anonymous_scope": true,
+    "notebook_all_cells_executed": true,
+    "notebook_no_errors": true,
+    "analysis_assertions": true
+  },
+  "table_counts": {
+    "actors": 73,
+    "comments": 25,
+    "engagement_observations": 133,
+    "groups": 7,
+    "interaction_events": 30,
+    "mentions": 5,
+    "participation": 71,
+    "posts": 63,
+    "served_text": 82
+  },
+  "combined_networks": {
+    "all_sample": {
+      "nodes": 73,
+      "active_nodes": 30,
+      "isolates": 43,
+      "edges": 26,
+      "events_without_self_loops": 27,
+      "density": 0.004946727549467275,
+      "weak_components": 48
+    },
+    "community_all": {
+      "nodes": 31,
+      "active_nodes": 14,
+      "isolates": 17,
+      "edges": 12,
+      "events_without_self_loops": 13,
+      "density": 0.012903225806451613,
+      "weak_components": 20
+    },
+    "community_2026": {
+      "nodes": 27,
+      "active_nodes": 10,
+      "isolates": 17,
+      "edges": 9,
+      "events_without_self_loops": 9,
+      "density": 0.01282051282051282,
+      "weak_components": 19
+    }
+  },
+  "data_sha256": {
+    "actors.csv": "5d29bca5e02a7d4ed2123c53341594d6024323e4f4e03662e237889d6fa70dca",
+    "comments.csv": "e21f7ef92fd0ec564fec3cf835cfa084ef53b4d559d49df3836210e18cd9adae",
+    "engagement_observations.csv": "fabf399a71ac82ff383efadf702b8d6b495ec8d0cd5102e2dc8f939e6d1dfc03",
+    "groups.csv": "ef403616cb2f71330d8aca47c21531ef9a9828646f7dc86b7412c4c51ae9136f",
+    "interaction_events.csv": "b8ccb16e60d20a26c8c959afbeb2b71bee068bd2a70778607930bbd9c3841595",
+    "mentions.csv": "e67e0aef0320c2eba7ecdfe6edf411278c5e9b8473b4fc537af8f6d2ade71c54",
+    "participation.csv": "bd7ced523d3f5ce5d7c07e589f5c7c154dd9d33823291c93676b5e7d1470f3b0",
+    "posts.csv": "8e5b8b1651c410ab43017356714dc4ce63bc438f9996aed9920eabdd817fb356",
+    "served_text.csv": "874003886d0e8fcde5e8ad11185da0f06a2f045718b313bd7c726188f00ddd7c"
+  },
+  "scope": "Offline project validation; successful extraction does not establish complete public coverage."
+}

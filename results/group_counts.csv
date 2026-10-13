@@ -1,0 +1,22 @@
+variant,group_id,group_name,posts,comments,interaction_events
+all_sample,2673424766123352,Warsaw Expat Business Community (WEBC),17,3,5
+all_sample,20442701688,"Expats in Warsaw, Poland",10,6,9
+all_sample,575531169123567,Business in Poland.,16,0,0
+all_sample,685011768711026,Pomysł na BIZNES! Moja własna firma,8,12,12
+all_sample,957521964785379,Przedsiębiorcy Polska,1,0,0
+all_sample,298535582264,"Impreza i Zabawa, to Warszawa!",1,0,0
+all_sample,639972129911751,Wspieraj lokalny biznes: KRAKÓW,10,4,4
+community_all,2673424766123352,Warsaw Expat Business Community (WEBC),17,3,5
+community_all,20442701688,"Expats in Warsaw, Poland",10,6,9
+community_all,575531169123567,Business in Poland.,0,0,0
+community_all,685011768711026,Pomysł na BIZNES! Moja własna firma,0,0,0
+community_all,957521964785379,Przedsiębiorcy Polska,0,0,0
+community_all,298535582264,"Impreza i Zabawa, to Warszawa!",0,0,0
+community_all,639972129911751,Wspieraj lokalny biznes: KRAKÓW,0,0,0
+community_2026,2673424766123352,Warsaw Expat Business Community (WEBC),14,0,0
+community_2026,20442701688,"Expats in Warsaw, Poland",10,6,9
+community_2026,575531169123567,Business in Poland.,0,0,0
+community_2026,685011768711026,Pomysł na BIZNES! Moja własna firma,0,0,0
+community_2026,957521964785379,Przedsiębiorcy Polska,0,0,0
+community_2026,298535582264,"Impreza i Zabawa, to Warszawa!",0,0,0
+community_2026,639972129911751,Wspieraj lokalny biznes: KRAKÓW,0,0,0

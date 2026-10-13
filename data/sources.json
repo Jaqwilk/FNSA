@@ -1,0 +1,54 @@
+{
+  "collection_date": "2026-10-13",
+  "timezone": "Europe/Warsaw",
+  "scope": "Publicly exposed Warsaw/Poland community and business activity; exploratory minimum SNA sample, without authenticated access",
+  "groups": [
+    {
+      "group_id": "2673424766123352",
+      "name": "Warsaw Expat Business Community (WEBC)",
+      "study_role": "community",
+      "url": "https://www.facebook.com/groups/2673424766123352/"
+    },
+    {
+      "group_id": "20442701688",
+      "name": "Expats in Warsaw, Poland",
+      "study_role": "community",
+      "url": "https://www.facebook.com/groups/wawexpats/"
+    },
+    {
+      "group_id": "575531169123567",
+      "name": "Business in Poland.",
+      "study_role": "classified_benchmark",
+      "url": "https://www.facebook.com/groups/575531169123567/"
+    },
+    {
+      "group_id": "685011768711026",
+      "name": "Pomysł na BIZNES! Moja własna firma",
+      "study_role": "promotion",
+      "url": "https://www.facebook.com/groups/poradybiznesu/"
+    },
+    {
+      "group_id": "957521964785379",
+      "name": "Przedsiębiorcy Polska",
+      "study_role": "archived_optional",
+      "url": "https://www.facebook.com/groups/957521964785379/"
+    },
+    {
+      "group_id": "298535582264",
+      "name": "Impreza i Zabawa, to Warszawa!",
+      "study_role": "weak_optional",
+      "url": "https://www.facebook.com/groups/tandem.evening/"
+    },
+    {
+      "group_id": "639972129911751",
+      "name": "Wspieraj lokalny biznes: KRAKÓW",
+      "study_role": "local_business_optional",
+      "url": "https://www.facebook.com/groups/639972129911751/"
+    }
+  ],
+  "private_candidates_excluded": [
+    "expatsinpoland",
+    "608756382524341"
+  ],
+  "sampling": "Current public previews plus discovered direct post links, with old test captures used only as seed URLs. Store actual publication timestamps and fresh collection times. No population-completeness claim."
+}

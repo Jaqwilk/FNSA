@@ -1,0 +1,10 @@
+variant,network,nodes,edges,events_raw,events_without_self_loops,self_loop_events_removed,self_loop_pairs_removed,isolates,active_nodes,density,weak_components,strong_components,largest_weak_component
+all_sample,comments,73,22,25,22,3,3,46,27,0.004185692541856925,51,73,13
+all_sample,mentions,73,4,5,5,0,0,66,7,0.00076103500761035,69,73,3
+all_sample,combined,73,26,30,27,3,3,43,30,0.004946727549467275,48,73,13
+community_all,comments,31,8,9,8,1,1,20,11,0.008602150537634409,23,31,6
+community_all,mentions,31,4,5,5,0,0,24,7,0.004301075268817204,27,31,3
+community_all,combined,31,12,14,13,1,1,17,14,0.012903225806451613,20,31,7
+community_2026,comments,27,6,6,6,0,0,19,8,0.008547008547008548,21,27,6
+community_2026,mentions,27,3,3,3,0,0,22,5,0.004273504273504274,24,27,3
+community_2026,combined,27,9,9,9,0,0,17,10,0.01282051282051282,19,27,7

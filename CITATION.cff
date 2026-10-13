@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this academic project if you use its original code or methodology."
+type: software
+title: "FNSA: Facebook Network & Social Analysis"
+authors:
+  - family-names: "Smogór"
+    given-names: "Natan"
+repository-code: "https://github.com/Jaqwilk/FNSA"
+license: Apache-2.0
+abstract: "Reproducible exploratory social network analysis of a public Facebook sample collected with Scrapling."
+keywords:
+  - social network analysis
+  - Facebook
+  - Scrapling
+  - reproducibility

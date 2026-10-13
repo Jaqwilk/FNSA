@@ -1,0 +1,73 @@
+{
+  "built_at": "2026-10-13T09:56:50.079226+00:00",
+  "counts": {
+    "groups": 7,
+    "posts": 63,
+    "comments": 25,
+    "actors": 73,
+    "users": 66,
+    "participation": 71,
+    "mentions": 5,
+    "served_text": 82,
+    "engagement_observations": 133,
+    "interaction_events": 30,
+    "posts_with_exact_timestamp": 63
+  },
+  "network_stats": {
+    "comments": {
+      "nodes": 28,
+      "directed_actor_pairs": 25,
+      "event_count": 25,
+      "self_loop_pairs": 3,
+      "weak_components": 6,
+      "density_without_self_loops": 0.0291005291005291
+    },
+    "mentions": {
+      "nodes": 7,
+      "directed_actor_pairs": 4,
+      "event_count": 5,
+      "self_loop_pairs": 0,
+      "weak_components": 3,
+      "density_without_self_loops": 0.09523809523809523
+    },
+    "interactions": {
+      "nodes": 31,
+      "directed_actor_pairs": 29,
+      "event_count": 30,
+      "self_loop_pairs": 3,
+      "weak_components": 6,
+      "density_without_self_loops": 0.02795698924731183
+    },
+    "interactions_community": {
+      "nodes": 14,
+      "directed_actor_pairs": 13,
+      "event_count": 14,
+      "self_loop_pairs": 1,
+      "weak_components": 3,
+      "density_without_self_loops": 0.06593406593406594
+    },
+    "participation": {
+      "nodes": 77,
+      "observed_actor_group_pairs": 71,
+      "components": 6,
+      "actors_active_in_multiple_groups": 1
+    }
+  },
+  "conflicted_records": 0,
+  "unresolved_interactions": 0,
+  "csv_read_errors": [],
+  "checks": "ID uniqueness, group scope, comment/actor joins, unique interaction event IDs, timezone-aware post timestamps, GraphML roundtrip passed",
+  "collection_state": "complete_public_sample",
+  "limitations": [
+    "Public logged-out sample; feed/history and comment coverage incomplete",
+    "Observed activity is not confirmed membership; tags are references, not friendship",
+    "Groups with different study roles should be filtered for a research cohort",
+    "No minimum sample size guarantees meaningful population conclusions"
+  ],
+  "post_publication_range_utc": [
+    "2022-03-16T07:29:54+00:00",
+    "2026-10-13T09:37:24+00:00"
+  ],
+  "worker_tasks": 10,
+  "final_gap_checks": "Two missing exact timestamps were recovered from public responses during final gap checks."
+}

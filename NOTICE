@@ -1,0 +1,20 @@
+FNSA — Facebook Network & Social Analysis
+Copyright 2026 Natan Smogór
+
+Original project code and documentation are licensed under Apache License 2.0.
+
+The project uses Scrapling, NetworkX, pandas, Matplotlib, ReportLab, svglib and
+other Python packages. These dependencies retain their respective upstream
+licenses and are installed separately, not vendored into this repository.
+
+Kozminski University logo: original flat artwork from the university's official
+visual identity book. University trademark/artwork rights are retained.
+Scrapling logo: original artwork from D4Vinci/Scrapling, docs/assets/logo.png.
+Framework trademark/artwork rights and upstream notices are retained.
+Lucide icons: original vector files; see assets/icons/LICENSE for ISC/MIT notices.
+Asset provenance and layout references are recorded in assets/SOURCES.md.
+
+Collected Facebook text, profile names, identifiers and other source records are
+observational third-party material. This project's Apache license does not
+relicense third-party content, logos or trademarks. The report is an academic
+project report and does not imply institutional endorsement or journal publication.

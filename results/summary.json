@@ -1,0 +1,767 @@
+{
+  "collection_day": "2026-10-13",
+  "timezone": "Europe/Warsaw",
+  "variants": {
+    "all_sample": {
+      "posts": 63,
+      "comments": 25,
+      "groups_with_posts": 7,
+      "networks": {
+        "comments": {
+          "variant": "all_sample",
+          "network": "comments",
+          "nodes": 73,
+          "edges": 22,
+          "events_raw": 25,
+          "events_without_self_loops": 22,
+          "self_loop_events_removed": 3,
+          "self_loop_pairs_removed": 3,
+          "isolates": 46,
+          "active_nodes": 27,
+          "density": 0.004185692541856925,
+          "weak_components": 51,
+          "strong_components": 73,
+          "largest_weak_component": 13,
+          "top_degree": [
+            {
+              "pseudonym": "A018",
+              "degree": 12,
+              "strength": 12
+            },
+            {
+              "pseudonym": "A044",
+              "degree": 5,
+              "strength": 5
+            },
+            {
+              "pseudonym": "A012",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A065",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A004",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            13,
+            6,
+            3,
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "mentions": {
+          "variant": "all_sample",
+          "network": "mentions",
+          "nodes": 73,
+          "edges": 4,
+          "events_raw": 5,
+          "events_without_self_loops": 5,
+          "self_loop_events_removed": 0,
+          "self_loop_pairs_removed": 0,
+          "isolates": 66,
+          "active_nodes": 7,
+          "density": 0.00076103500761035,
+          "weak_components": 69,
+          "strong_components": 73,
+          "largest_weak_component": 3,
+          "top_degree": [
+            {
+              "pseudonym": "A057",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A009",
+              "degree": 1,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A012",
+              "degree": 1,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A024",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            3,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "combined": {
+          "variant": "all_sample",
+          "network": "combined",
+          "nodes": 73,
+          "edges": 26,
+          "events_raw": 30,
+          "events_without_self_loops": 27,
+          "self_loop_events_removed": 3,
+          "self_loop_pairs_removed": 3,
+          "isolates": 43,
+          "active_nodes": 30,
+          "density": 0.004946727549467275,
+          "weak_components": 48,
+          "strong_components": 73,
+          "largest_weak_component": 13,
+          "top_degree": [
+            {
+              "pseudonym": "A018",
+              "degree": 12,
+              "strength": 12
+            },
+            {
+              "pseudonym": "A044",
+              "degree": 5,
+              "strength": 5
+            },
+            {
+              "pseudonym": "A012",
+              "degree": 3,
+              "strength": 4
+            },
+            {
+              "pseudonym": "A057",
+              "degree": 3,
+              "strength": 3
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 2,
+              "strength": 2
+            }
+          ],
+          "weak_component_sizes": [
+            13,
+            7,
+            4,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "participation": {
+        "nodes": 77,
+        "edges": 71,
+        "activity_events": 88
+      }
+    },
+    "community_all": {
+      "posts": 27,
+      "comments": 9,
+      "groups_with_posts": 2,
+      "networks": {
+        "comments": {
+          "variant": "community_all",
+          "network": "comments",
+          "nodes": 31,
+          "edges": 8,
+          "events_raw": 9,
+          "events_without_self_loops": 8,
+          "self_loop_events_removed": 1,
+          "self_loop_pairs_removed": 1,
+          "isolates": 20,
+          "active_nodes": 11,
+          "density": 0.008602150537634409,
+          "weak_components": 23,
+          "strong_components": 31,
+          "largest_weak_component": 6,
+          "top_degree": [
+            {
+              "pseudonym": "A044",
+              "degree": 5,
+              "strength": 5
+            },
+            {
+              "pseudonym": "A012",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A004",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A026",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            6,
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "mentions": {
+          "variant": "community_all",
+          "network": "mentions",
+          "nodes": 31,
+          "edges": 4,
+          "events_raw": 5,
+          "events_without_self_loops": 5,
+          "self_loop_events_removed": 0,
+          "self_loop_pairs_removed": 0,
+          "isolates": 24,
+          "active_nodes": 7,
+          "density": 0.004301075268817204,
+          "weak_components": 27,
+          "strong_components": 31,
+          "largest_weak_component": 3,
+          "top_degree": [
+            {
+              "pseudonym": "A057",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A009",
+              "degree": 1,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A012",
+              "degree": 1,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A024",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            3,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "combined": {
+          "variant": "community_all",
+          "network": "combined",
+          "nodes": 31,
+          "edges": 12,
+          "events_raw": 14,
+          "events_without_self_loops": 13,
+          "self_loop_events_removed": 1,
+          "self_loop_pairs_removed": 1,
+          "isolates": 17,
+          "active_nodes": 14,
+          "density": 0.012903225806451613,
+          "weak_components": 20,
+          "strong_components": 31,
+          "largest_weak_component": 7,
+          "top_degree": [
+            {
+              "pseudonym": "A044",
+              "degree": 5,
+              "strength": 5
+            },
+            {
+              "pseudonym": "A012",
+              "degree": 3,
+              "strength": 4
+            },
+            {
+              "pseudonym": "A057",
+              "degree": 3,
+              "strength": 3
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A026",
+              "degree": 2,
+              "strength": 2
+            }
+          ],
+          "weak_component_sizes": [
+            7,
+            4,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "participation": {
+        "nodes": 30,
+        "edges": 28,
+        "activity_events": 36
+      }
+    },
+    "community_2026": {
+      "posts": 24,
+      "comments": 6,
+      "groups_with_posts": 2,
+      "networks": {
+        "comments": {
+          "variant": "community_2026",
+          "network": "comments",
+          "nodes": 27,
+          "edges": 6,
+          "events_raw": 6,
+          "events_without_self_loops": 6,
+          "self_loop_events_removed": 0,
+          "self_loop_pairs_removed": 0,
+          "isolates": 19,
+          "active_nodes": 8,
+          "density": 0.008547008547008548,
+          "weak_components": 21,
+          "strong_components": 27,
+          "largest_weak_component": 6,
+          "top_degree": [
+            {
+              "pseudonym": "A044",
+              "degree": 5,
+              "strength": 5
+            },
+            {
+              "pseudonym": "A004",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A026",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A051",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            6,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "mentions": {
+          "variant": "community_2026",
+          "network": "mentions",
+          "nodes": 27,
+          "edges": 3,
+          "events_raw": 3,
+          "events_without_self_loops": 3,
+          "self_loop_events_removed": 0,
+          "self_loop_pairs_removed": 0,
+          "isolates": 22,
+          "active_nodes": 5,
+          "density": 0.004273504273504274,
+          "weak_components": 24,
+          "strong_components": 27,
+          "largest_weak_component": 3,
+          "top_degree": [
+            {
+              "pseudonym": "A057",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A024",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A026",
+              "degree": 1,
+              "strength": 1
+            },
+            {
+              "pseudonym": "A036",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "combined": {
+          "variant": "community_2026",
+          "network": "combined",
+          "nodes": 27,
+          "edges": 9,
+          "events_raw": 9,
+          "events_without_self_loops": 9,
+          "self_loop_events_removed": 0,
+          "self_loop_pairs_removed": 0,
+          "isolates": 17,
+          "active_nodes": 10,
+          "density": 0.01282051282051282,
+          "weak_components": 19,
+          "strong_components": 27,
+          "largest_weak_component": 7,
+          "top_degree": [
+            {
+              "pseudonym": "A044",
+              "degree": 5,
+              "strength": 5
+            },
+            {
+              "pseudonym": "A057",
+              "degree": 3,
+              "strength": 3
+            },
+            {
+              "pseudonym": "A010",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A026",
+              "degree": 2,
+              "strength": 2
+            },
+            {
+              "pseudonym": "A004",
+              "degree": 1,
+              "strength": 1
+            }
+          ],
+          "weak_component_sizes": [
+            7,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "participation": {
+        "nodes": 27,
+        "edges": 25,
+        "activity_events": 30
+      }
+    }
+  },
+  "conventions": {
+    "direction": "Comment author → post author or verified parent comment author; mention author → mentioned actor",
+    "weights": "Number of observed events; self-loops removed from analytical graphs.",
+    "nodes": "All observed authors of selected posts and comments and endpoints of selected interactions; isolates retained.",
+    "participation": "Bipartite actor–group graph: counts of posts and comments; observed activity does not establish interpersonal relationships or membership.",
+    "betweenness": "Directed graph, unweighted distance, NetworkX normalization; descriptive measure, not evidence of influence.",
+    "2026": "Post published during 2026-01-01–2026-10-13 (Europe/Warsaw); comments and mentions must have a selected parent post and their own timestamp within the interval.",
+    "limitations": "Sample of accessible records, not the full group population; missing interactions in the sample do not establish absent relationships."
+  },
+  "validation": {
+    "unique_post_comment_event_ids": true,
+    "parent_post_joins": true,
+    "known_actors": true,
+    "anonymous_group_scope": true,
+    "interaction_weight_conservation": true,
+    "participation_weight_conservation": true,
+    "finite_metrics": true
+  }
+}

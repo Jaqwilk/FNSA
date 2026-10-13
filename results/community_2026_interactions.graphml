@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d5" for="node" attr.name="identity_scope" attr.type="string"/>
+<key id="d4" for="node" attr.name="actor_type" attr.type="string"/>
+<key id="d3" for="node" attr.name="actor_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="graph" attr.name="network" attr.type="string"/>
+<key id="d0" for="graph" attr.name="variant" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">community_2026</data>
+<data key="d1">combined</data>
+<node id="100000868689973">
+  <data key="d2">A003</data>
+  <data key="d3">100000868689973</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100000990177948">
+  <data key="d2">A004</data>
+  <data key="d3">100000990177948</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100001102252362">
+  <data key="d2">A007</data>
+  <data key="d3">100001102252362</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100002701797675">
+  <data key="d2">A010</data>
+  <data key="d3">100002701797675</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100027619179964">
+  <data key="d2">A015</data>
+  <data key="d3">100027619179964</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100044143881303">
+  <data key="d2">A017</data>
+  <data key="d3">100044143881303</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100085365664949">
+  <data key="d2">A023</data>
+  <data key="d3">100085365664949</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="100090326484110">
+  <data key="d2">A024</data>
+  <data key="d3">100090326484110</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="1558525681">
+  <data key="d2">A026</data>
+  <data key="d3">1558525681</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61579758218954">
+  <data key="d2">A031</data>
+  <data key="d3">61579758218954</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61580288027437">
+  <data key="d2">A033</data>
+  <data key="d3">61580288027437</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61586543956968">
+  <data key="d2">A035</data>
+  <data key="d3">61586543956968</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61588073096782">
+  <data key="d2">A036</data>
+  <data key="d3">61588073096782</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61591413511006">
+  <data key="d2">A039</data>
+  <data key="d3">61591413511006</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61591474190022">
+  <data key="d2">A040</data>
+  <data key="d3">61591474190022</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61592826216438">
+  <data key="d2">A042</data>
+  <data key="d3">61592826216438</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="61594167898325">
+  <data key="d2">A043</data>
+  <data key="d3">61594167898325</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="anonymous:20442701688:2360809471389591">
+  <data key="d2">A044</data>
+  <data key="d3">2360809471389591</data>
+  <data key="d4">GroupAnonAuthorProfile</data>
+  <data key="d5">group:20442701688</data>
+</node>
+<node id="pfbid029SgBS1jCz5PnDK3G6KPwmqr33eANVwjLvBQLosGXiDx5gPegUWFSPDvxGMo4Dcxyl">
+  <data key="d2">A051</data>
+  <data key="d3">pfbid029SgBS1jCz5PnDK3G6KPwmqr33eANVwjLvBQLosGXiDx5gPegUWFSPDvxGMo4Dcxyl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid02XBBMmCsxEFWXLqUPjEgu57vcLU24pu1X6k4iXwKgoQARBHbLzYoJMZVX8JfoUBFnl">
+  <data key="d2">A054</data>
+  <data key="d3">pfbid02XBBMmCsxEFWXLqUPjEgu57vcLU24pu1X6k4iXwKgoQARBHbLzYoJMZVX8JfoUBFnl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid02zX8QrM961Vw4q6FmWwKNWemQ9PVuLFrhaptabACfu1j7USK1sW4phq3hNLg7JvdZl">
+  <data key="d2">A057</data>
+  <data key="d3">pfbid02zX8QrM961Vw4q6FmWwKNWemQ9PVuLFrhaptabACfu1j7USK1sW4phq3hNLg7JvdZl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid034R5qsfgnooTLcwYszLEGxYVzM7BqP3S78vcPZHP4BoyoC4BYkfqAq8br42dmEstAl">
+  <data key="d2">A059</data>
+  <data key="d3">pfbid034R5qsfgnooTLcwYszLEGxYVzM7BqP3S78vcPZHP4BoyoC4BYkfqAq8br42dmEstAl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid0EaAZfJXTJDrYQw1WE2RFYgDNpGXT1EnB7hjrZKTsDFT6JViCJDjnZ4oR9b3WsB5Ql">
+  <data key="d2">A061</data>
+  <data key="d3">pfbid0EaAZfJXTJDrYQw1WE2RFYgDNpGXT1EnB7hjrZKTsDFT6JViCJDjnZ4oR9b3WsB5Ql</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid0J9EBTZW9V4vfAWB4MAwKnh2Q7V63R7XtoeVq4jweve7JUAfJ62k2S3btRNjhQMeel">
+  <data key="d2">A062</data>
+  <data key="d3">pfbid0J9EBTZW9V4vfAWB4MAwKnh2Q7V63R7XtoeVq4jweve7JUAfJ62k2S3btRNjhQMeel</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid0Q1dpE3NZNho3oQC6gcbPiknNwfdiWaxFJcVXd6vCCteFAEZ6tew684b98JkrQxbTl">
+  <data key="d2">A063</data>
+  <data key="d3">pfbid0Q1dpE3NZNho3oQC6gcbPiknNwfdiWaxFJcVXd6vCCteFAEZ6tew684b98JkrQxbTl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid0aYmwqQWUNL2U56KG4JoSJZqZiHH6YKdiXwr9pWjyxTKusMi5zBFgfirZPQgFwhFNl">
+  <data key="d2">A066</data>
+  <data key="d3">pfbid0aYmwqQWUNL2U56KG4JoSJZqZiHH6YKdiXwr9pWjyxTKusMi5zBFgfirZPQgFwhFNl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<node id="pfbid0pAoT3WG8CJNqGaTjiX2HssQUEoGE8XHvvzFDsyirFKGvS8yZW3tquJmECNXrnMYvl">
+  <data key="d2">A070</data>
+  <data key="d3">pfbid0pAoT3WG8CJNqGaTjiX2HssQUEoGE8XHvvzFDsyirFKGvS8yZW3tquJmECNXrnMYvl</data>
+  <data key="d4">User</data>
+  <data key="d5">platform_actor</data>
+</node>
+<edge source="100000990177948" target="1558525681">
+  <data key="d6">1</data>
+</edge>
+<edge source="100002701797675" target="anonymous:20442701688:2360809471389591">
+  <data key="d6">1</data>
+</edge>
+<edge source="1558525681" target="61588073096782">
+  <data key="d6">1</data>
+</edge>
+<edge source="pfbid029SgBS1jCz5PnDK3G6KPwmqr33eANVwjLvBQLosGXiDx5gPegUWFSPDvxGMo4Dcxyl" target="anonymous:20442701688:2360809471389591">
+  <data key="d6">1</data>
+</edge>
+<edge source="pfbid02zX8QrM961Vw4q6FmWwKNWemQ9PVuLFrhaptabACfu1j7USK1sW4phq3hNLg7JvdZl" target="anonymous:20442701688:2360809471389591">
+  <data key="d6">1</data>
+</edge>
+<edge source="pfbid02zX8QrM961Vw4q6FmWwKNWemQ9PVuLFrhaptabACfu1j7USK1sW4phq3hNLg7JvdZl" target="100002701797675">
+  <data key="d6">1</data>
+</edge>
+<edge source="pfbid02zX8QrM961Vw4q6FmWwKNWemQ9PVuLFrhaptabACfu1j7USK1sW4phq3hNLg7JvdZl" target="100090326484110">
+  <data key="d6">1</data>
+</edge>
+<edge source="pfbid0J9EBTZW9V4vfAWB4MAwKnh2Q7V63R7XtoeVq4jweve7JUAfJ62k2S3btRNjhQMeel" target="anonymous:20442701688:2360809471389591">
+  <data key="d6">1</data>
+</edge>
+<edge source="pfbid0aYmwqQWUNL2U56KG4JoSJZqZiHH6YKdiXwr9pWjyxTKusMi5zBFgfirZPQgFwhFNl" target="anonymous:20442701688:2360809471389591">
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>
