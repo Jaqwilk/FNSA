@@ -8,6 +8,15 @@ The study interval runs from 1 January through 13 October 2026 in Europe/Warsaw.
 
 There are 24 posts, 6 comments and 3 mention events. The directed combined graph has **27 actors, 9 edges, 9 non-loop events and 17 isolates**. Ten actors have at least one observed non-loop connection. There are 19 weak components: two nontrivial components of sizes 7 and 3, plus 17 singletons. Density including isolates is approximately **0.01282**. The largest observed total degree is 5, for pseudonym A044. This is a sample statistic, not evidence of influence.
 
+### Plain-language conclusions from these records
+
+- Five of the six comments are on one post by anonymous profile A044, from five distinct commenters. Recorded commenting is therefore concentrated around that one thread. A044 has five incoming connections and none outgoing; its high degree describes this captured thread, not influence or a known real-world person.
+- The 10 connected profiles form two separate sets of sizes 7 and 3, with no observed edge between them. These are components of the captured graph, not independently established communities.
+- Seventeen of the 27 profiles have no observed non-loop connection. This sample captures more publishing profiles than visible interaction participants. Missing collected links do not establish inactivity.
+- Three of nine interaction events are tags. The network includes references as well as comments; tags and comment links should not be read as friendships or necessarily as direct conversation.
+
+These are conclusions about the collected data only. Partial Facebook visibility limits what we can infer beyond those records.
+
 The participation graph has 27 total nodes (actors plus groups), 25 observed actor-group pairs and 30 post/comment activity events. Its node universe differs from the interaction graph because mentioned targets without authored activity do not become participation actors.
 
 ## Sensitivity analysis

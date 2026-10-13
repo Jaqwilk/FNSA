@@ -27,7 +27,14 @@ Collection date: **13 October 2026**. The main study interval is **1 January–1
 
 ## Main result
 
-The main cohort contains **24 posts, 6 comments and 3 mentions**. Its combined directed network contains **27 actors, 9 edges and 17 isolates**. Ten actors participate in recovered non-loop interactions. Isolates are retained in the graph and metrics; drawings show active actors only.
+For the two Warsaw groups in the 2026 window, we collected **24 posts, 6 comments and 3 explicit tags**. The graph contains 27 profiles and 9 arrows. Each arrow records a comment-to-post-author link or a tag; it is not a friendship.
+
+The conclusions below apply **only to these collected records**:
+
+- **Most recorded commenting was around one post.** Five of the six comments came from five different profiles on a post by anonymous profile A044. That thread explains why A044 has the most connections in this sample; its real identity is unknown.
+- **The connected profiles form two separate sets, of 7 and 3 profiles.** No recorded arrow joins them. They are fragments of observed activity, not proven communities.
+- **Most collected profiles have no recorded connection: 17 of 27.** Only 10 have an observed non-loop link. The sample captures many publishing profiles but few visible interactions; this does not establish inactivity elsewhere.
+- **Tags contribute three of the nine events.** They add references to other profiles, including profiles with no authored activity in the sample. A reference is not necessarily a conversation or evidence of membership.
 
 <p align="center">
   <img src="figures/paper/community_2026_network.svg" width="650" alt="Monochrome directed network of the observed 2026 community cohort">
@@ -115,6 +122,19 @@ python collect_data.py --group 20442701688 --limit 5 --run
 
 Without `--run`, the collector only prints a plan. Logged-out access can stop at a login wall or access limit; full post/comment coverage is not guaranteed. A new collection requires validation, deduplication and a separate versioned snapshot before analysis.
 
+## Why Facebook collection was difficult
+
+We used Scrapling without logging in. The login prompt returned during scrolling, public previews changed between visits, and comment expansion exposed only part of some threads. More scrolling, installed Chrome and the tested StealthySession did not establish complete history or user lists.
+
+| Data type | What we could verify in our tests |
+| :--- | :--- |
+| Core metadata | Post, author and group IDs; exact times on tested direct post links; observed posting/commenting participation. |
+| Public interactions | IDs, authors and times for visible comments, plus explicit tagged targets. The same selected comments and tags repeated in the fixed-thread tests. Coverage across threads remains incomplete. |
+| Optional context | Served text and exposed engagement totals. These can be snippets or changing snapshots. |
+| Not established | Complete membership/friendship lists, individual reactor/sharer IDs, reliable usernames and verified nested replies. |
+
+**These are the usable data types verified by our logged-out tests, not a universal list of everything Scrapling or Facebook can provide.** Consistency means repeated extraction from the tested visible records. It does not mean every post or comment is visible, the returned records are always identical, or access will remain stable over time. The collection-reliability note documents the repeated-test evidence.
+
 ## Interpretation limits
 
 This sample supports a **minimum exploratory SNA**, with descriptive statistics and reproducible exports. It does not establish complete group membership, friendship, real-world identity, influence or community structure.
@@ -125,7 +145,7 @@ The next study should predefine comparable groups, a time window and a post-sele
 
 ## Report template
 
-The four-page PDF explains only the essential data, collection steps, network rules, results and reproduction commands in plain English. It uses a minimalist research-paper layout: serif typography, numbered sections, monochrome vector figures, an abstract and a final reference section. Only the original logos use color. All explanations are English.
+The short PDF explains only the essential data, collection steps, network rules, results and reproduction commands in plain English. It uses a minimalist research-paper layout: serif typography, numbered sections, monochrome vector figures, an abstract and a final reference section. Only the original logos use color. All explanations are English.
 
 Edit `report_config.json` to change the title, author, institution or date, then run `python generate_report.py`. University artwork, the original Scrapling logo and Lucide vector icons are stored locally so report generation remains offline.
 
@@ -139,6 +159,8 @@ Original project code and documentation are released under **Apache License 2.0*
 - [Executed notebook](analysis.ipynb)
 - [Data dictionary](DATA_DICTIONARY.md)
 - [Findings and limitations](results/FINDINGS.md)
+- [Collection reliability and tested data types](docs/COLLECTION_RELIABILITY.md)
+- [Report clarity audit](docs/REPORT_AUDIT.md)
 - [Validation results](results/validation.json)
 - [Source groups and sampling configuration](data/sources.json)
 - [Visual asset sources](assets/SOURCES.md)

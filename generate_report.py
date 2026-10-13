@@ -139,7 +139,7 @@ def make_paper_figures(summary):
 def references():
     story.append(PageBreak())
     para('References and links','HeadReport')
-    para('Project evidence: frozen CSV tables in data/, DATA_DICTIONARY.md, results/summary.json and results/validation.json. The URLs below are provided together for source attribution and further reading. Retrieved 13 October 2026.','SmallReport')
+    para('Project evidence: frozen CSV tables in data/, DATA_DICTIONARY.md, results/summary.json, results/validation.json and docs/COLLECTION_RELIABILITY.md. The URLs below are provided together for source attribution and further reading. Retrieved 13 October 2026.','SmallReport')
     links=[
       ('FNSA - project repository, code, data and report','https://github.com/Jaqwilk/FNSA'),
       ('Scrapling - original repository and logo source','https://github.com/D4Vinci/Scrapling'),
@@ -186,41 +186,45 @@ def main():
     workflow()
 
     page('1. What we collected')
-    para('The data was collected on 13 October 2026 from publicly visible Facebook pages. The complete sample contains the following records:')
+    para('We collected the following sample on 13 October 2026 from public Facebook group pages. It includes posts from different years; it is not a complete history of the groups:')
     table([['Groups','Posts','Comments','Profiles','Tags','Profile-group pairs'],['7','63','25','73','5','71']],[55,55,70,70,70,155])
     para('Each post has an exact post ID, author ID, group ID and publication time. IDs connect records across the tables. The sample contains 66 served User profiles and 7 group-scoped anonymous profiles. A profile does not establish a verified real-world identity.')
-    para('The main question is: <b>what commenting and tagging connections did we observe in WEBC and Expats in Warsaw during 2026?</b> The time window is 1 January through 13 October 2026, using Europe/Warsaw dates.')
+    para('The main analysis uses two groups: Warsaw Expat Business Community (WEBC) and Expats in Warsaw, Poland. We ask: <b>who commented on whose posts, and who tagged whom, in the records we collected?</b> Both the parent post and its comment/tag must be dated 1 January through 13 October 2026 in Europe/Warsaw.')
 
     page('2. How we used Scrapling')
     scrapling_identity()
     para('<b>Step 1 - Open public content.</b> Scrapling loaded group previews and direct post links without logging in. Its browser fetcher captured the pages and the structured responses those pages requested.')
     para('<b>Step 2 - Extract records.</b> The Python tools read IDs, authors, groups, publication times, comments and explicit tags from the returned data. They saved the results as CSV tables.')
     para('<b>Step 3 - Check the data.</b> We removed duplicate records and checked IDs, links between tables and timestamps. Missing information was left blank. We did not invent users, comments or connections.')
-    para('Public access was incomplete. A login wall or a limited preview could hide records. A successful page request did not mean that all comments were available.')
+    para('<b>Why collecting Facebook data was difficult.</b> The login prompt returned during scrolling. Group previews exposed different posts across visits, and comment expansion did not reveal everything. More scrolling and alternative tested browsers did not unlock complete history.')
+    table([['Data type','What our tests supported'],['Core metadata','Post, author and group IDs; exact publication times from tested direct post links; observed posting/commenting in groups.'],['Public interactions','Comment IDs, authors and times, plus explicit tags when served. Repeated tests recovered the same selected comments and tags; total coverage was incomplete.'],['Optional context','Served text and reaction/share/comment totals where available. These are snippets or snapshots, not complete user-level networks.'],['Not established','Complete member/friend lists, individual reactor/sharer lists, reliable usernames or verified nested replies.']],[105,370])
+    para('These are the usable data types verified in our logged-out tests, not every capability Facebook might offer. <b>Repeatable extraction is not complete coverage:</b> stable fields on tested records do not guarantee the same records on every visit or in every group. We base our conclusions only on the records actually collected.')
 
     page('3. How the network works')
-    para('<b>Node = a profile.</b> A### labels make the drawing readable. Their mapping is stored in node_mapping.csv. Anonymous profiles stay tied to their group; we do not infer who they are.')
+    para('<b>Node = a profile.</b> A### labels make the drawing readable. Their mapping is stored in results/node_mapping.csv. They hide names in the drawing but do not anonymize the dataset. Anonymous profiles stay tied to their group; we do not infer who they are.')
     para('<b>Comment arrow:</b> comment author to post author. This is the chosen analysis rule; it does not prove that the comment directly addresses that person.')
     para('<b>Tag arrow:</b> content author to the explicitly tagged profile. A written name without an ID does not create an edge.')
     para('<b>Weight = number of observed events.</b> Repeated events between the same two profiles increase the weight. Self-comments stay in the source data but are removed from the analysis graph.')
     para('<b>Isolate = a profile without a recovered connection.</b> Isolates remain in the totals and graph files. The drawing shows only profiles with connections.')
     para('A separate profile-group graph records observed posting and commenting. It is not a membership or friendship list.')
 
-    page('4. The main result')
+    story.append(PageBreak())
+    page('4. What we found in the collected data')
     rows=[['Sample','Profiles','Connections','Isolates']]
     for k,label in [('all_sample','All 7 groups / all years'),('community_all','Two community groups / all years'),('community_2026','Two community groups / 2026')]:
         n=variants[k]['networks']['combined'];rows.append([label,n['nodes'],n['edges'],n['isolates']])
     table(rows,[235,80,80,80])
-    para(f'The main 2026 sample contains <b>{mainv["posts"]} posts, {mainv["comments"]} comments and 3 tags</b>. Its network has <b>{net["nodes"]} profiles, {net["edges"]} directed connections and {net["isolates"]} isolates</b>. Only {net["active_nodes"]} profiles have a recovered connection. The largest connected group contains {net["largest_weak_component"]} profiles when arrow direction is ignored.')
+    para(f'For the two groups in 2026, we collected <b>{mainv["posts"]} posts, {mainv["comments"]} comments and 3 explicit tags</b>. We found {net["nodes"]} profiles and {net["edges"]} arrows between profiles. An arrow means a recorded comment-to-post-author link or a tag; it is not a friendship.')
+    para('<b>Most recorded commenting was around one post.</b> Five of the six comments were on a post by the anonymous profile A044, from five different profiles. A044 is the most connected profile in this sample because of that thread; we do not know the person behind it.')
+    para('<b>We found two separate sets of connected profiles: 7 and 3.</b> No recorded arrow joins the sets. This describes the captured interactions, not two proven communities.')
+    para('<b>Most collected profiles had no recorded connection: 17 out of 27.</b> Only 10 appear in the drawing. The sample captures many publishing profiles but few visible interactions; this does not mean the other 17 were inactive on Facebook.')
+    para('<b>Tags add a different kind of link.</b> Three of the nine recorded events were explicit tags. They show which profiles were referenced, including profiles with no authored activity in our sample; they do not establish a conversation or group membership.')
     figure('community_2026_network.png','Main 2026 network. Open circles: served User profiles. Solid squares: group-scoped anonymous profiles. The 17 isolates remain in the graph files and totals.',maxheight=145)
-    para('The project also calculates degree (number of connections), strength (number of events), density (fraction of possible connections), components (connected sets) and betweenness (shortest-path position). These are sample descriptions, not measures of real-world influence.')
-    para('For the 2026 variant, both the parent post and the comment/tag time must fall inside the window. The larger variants add other sources or older content, so their totals do not show changes over time.')
+    para('The larger samples in the table include other groups or older posts. Their larger totals reflect added records, not a measured change over time.')
 
-    page('5. What these results can tell us')
-    para('<b>Enough for a minimum exploratory SNA.</b> We can build a network from exact records, describe its size and connections, and compare three clearly defined samples.')
-    para('<b>Too incomplete for whole-community claims.</b> Comments are only partly visible, no verified nested replies were collected, and the sources were not chosen randomly. Missing edges do not prove missing real relationships.')
-    para('We cannot infer complete membership, friendships, influence, or the identities of all reacting and sharing users. Engagement totals are repeated snapshots; adding them together would double-count activity.')
-    para('A stronger next study should use the same groups and time window, document attempted and recovered records, and collect more comparable comments and verified replies.')
+    page('5. How far these conclusions go')
+    para('The findings above describe our collected records only. Facebook exposed a limited, uneven sample, and our sources were not randomly selected. Missing arrows do not prove missing relationships. We cannot turn this sample into claims about complete membership, friendships or influence.')
+    para('The next study should use the same groups and time window, record what was attempted and recovered, and collect more comparable comments and verified replies. Engagement totals must remain separate snapshots, not added user-level connections.')
 
     page('6. How to run the project')
     para('<b>Step 1.</b> Open the project folder and install the packages using Python 3.13, the tested version:')
